@@ -1,4 +1,4 @@
-class Solution {
+/class Solution {
 public:
     double myPow(double x, int n) {
         bool isF = false;
@@ -12,7 +12,7 @@ public:
         }
         
         double res = 1.0;
-        while(N) {
+        while(N) { //使用快速幂运算
             if(N & 1 == 1) {
                 res *= x;
             }
